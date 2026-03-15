@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://yourname-portfolio --delete
+          aws s3 sync . s3://yourname-portfolio-2025  --delete
